@@ -2,42 +2,42 @@
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[0]= LAYOUT_ortho_5x4(
-		KC_TRNS,            KC_TRNS,
+		KC_TRNS,            	   KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
 
     [1]= LAYOUT_ortho_5x4(
-		KC_TRNS,            KC_TRNS,
+		KC_TRNS,            	   KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
 
     [2]= LAYOUT_ortho_5x4(
-		KC_TRNS,            KC_TRNS,
+		KC_TRNS,            	   KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
 
     [3]= LAYOUT_ortho_5x4(
-		KC_TRNS,            KC_TRNS,
+		KC_TRNS,                   KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
 
     [4]= LAYOUT_ortho_5x4(
-		KC_TRNS,            KC_TRNS,
+		KC_TRNS,                   KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
 
     [5]= LAYOUT_ortho_5x4(
-		KC_TRNS,            KC_TRNS,
+		KC_TRNS,                   KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
