@@ -19,7 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "config_common.h"
 
 #define VENDOR_ID       0x6B62
-#define PRODUCT_ID      0x6869
+#define PRODUCT_ID      0x6472
 #define DEVICE_VER      0x0002
 #define MANUFACTURER    SciencePirate
 #define PRODUCT         DISCIPLINE
