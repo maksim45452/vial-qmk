@@ -33,8 +33,8 @@
 
 #define USB_MAX_POWER_CONSUMPTION 100
 
-#define ENCODERS_PAD_A { D0, D5 }
-#define ENCODERS_PAD_B { D1, D6 }
+#define ENCODERS_PAD_A { D1, D6 }
+#define ENCODERS_PAD_B { D0, D5 }
 #define ENCODER_DIRECTION_FLIP
 #define ENCODER_RESOLUTION 4
 #define TAP_CODE_DELAY 10
@@ -130,3 +130,4 @@
 /* Bootmagic Lite key configuration */
 #define BOOTMAGIC_LITE_ROW 0
 #define BOOTMAGIC_LITE_COLUMN 0
+#define OLED_FONT_H "font.c"
