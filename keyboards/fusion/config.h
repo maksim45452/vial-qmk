@@ -33,12 +33,11 @@
 
 #define USB_MAX_POWER_CONSUMPTION 100
 
-#define ENCODERS_PAD_A { D1, D6 }
-#define ENCODERS_PAD_B { D0, D5 }
-#define ENCODER_DIRECTION_FLIP
+#define ENCODERS_PAD_A { D0, D5 }
+#define ENCODERS_PAD_B { D1, D6 }
 #define ENCODER_RESOLUTION 4
 #define TAP_CODE_DELAY 10
-
+#define ENCODER_MAP_KEY_DELAY 10
 /*
  * Split Keyboard specific options, make sure you have 'SPLIT_KEYBOARD = yes' in your rules.mk, and define SOFT_SERIAL_PIN.
  */

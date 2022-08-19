@@ -101,28 +101,11 @@ bool oled_task_user(void) {
 }
 #endif
 
-#ifdef ENCODER_ENABLE
-bool encoder_update_user(uint8_t index, bool clockwise) {
-    // First encoder (E1)
-    if (index == 0) {
-        if (clockwise) {
-            tap_code(KC_F17);
-        } else {
-            tap_code(KC_F18);
-        }
-        // Second encoder (E2)
-    } else if (index == 1) {
-        if (clockwise) {
-            tap_code(KC_F19);
-        } else {
-            tap_code(KC_F20);
-        }
-        // Third encoder (E3)
-    }
-    return true;
-}
-#endif
-
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
-    [0] = {ENCODER_CCW_CW(TO(5), TO(1)), ENCODER_CCW_CW(KC_VOLD, KC_VOLU)}, [1] = {ENCODER_CCW_CW(TO(0), TO(2)), ENCODER_CCW_CW(KC_TRNS, KC_TRNS)}, [2] = {ENCODER_CCW_CW(TO(1), TO(3)), ENCODER_CCW_CW(KC_TRNS, KC_TRNS)}, [3] = {ENCODER_CCW_CW(TO(2), TO(4)), ENCODER_CCW_CW(KC_TRNS, KC_TRNS)}, [4] = {ENCODER_CCW_CW(TO(3), TO(5)), ENCODER_CCW_CW(KC_TRNS, KC_TRNS)}, [5] = {ENCODER_CCW_CW(TO(4), TO(0)), ENCODER_CCW_CW(KC_TRNS, KC_TRNS)},
+    [0] = {ENCODER_CCW_CW(TO(5), TO(1)), ENCODER_CCW_CW(KC_VOLD, KC_VOLU)},
+    [1] = {ENCODER_CCW_CW(TO(0), TO(2)), ENCODER_CCW_CW(KC_TRNS, KC_TRNS)},
+    [2] = {ENCODER_CCW_CW(TO(1), TO(3)), ENCODER_CCW_CW(KC_TRNS, KC_TRNS)},
+    [3] = {ENCODER_CCW_CW(TO(2), TO(4)), ENCODER_CCW_CW(KC_TRNS, KC_TRNS)},
+    [4] = {ENCODER_CCW_CW(TO(3), TO(5)), ENCODER_CCW_CW(KC_TRNS, KC_TRNS)},
+    [5] = {ENCODER_CCW_CW(TO(4), TO(0)), ENCODER_CCW_CW(KC_TRNS, KC_TRNS)},
 };
